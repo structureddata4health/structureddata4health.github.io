@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Workshop on Structured Data for Health.">
+  <meta name="author" content="SD4H Organizers">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <title>Call for Papers | Structured Data for Health</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  </head>
+<body>
+  <style>
+    .back {
+      background:
+        linear-gradient(
+          rgba(30, 100, 160, 0.90),
+          rgba(0, 0, 0, 0.01)
+        ),
+        url("img/seoul.jpg") no-repeat center;
+      background-size: cover;
+    }
+    .back h2 {
+      font-family: "Lato", sans-serif;
+      font-weight: 500;
+      font-size: 3rem;
+    }
+    .helper {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+    .nav .btn {
+      font-size: 30px; 
+      color: white;
+    }
+    /* Style for the active navigation link */
+    .nav a.active {
+      text-decoration: underline;
+    }
+  </style>
+<div class="jumbotron jumbotron-fluid back" style="padding-bottom: 100px;">
+  <div class="row header p-6 m-5">
+    <div class="p-1 mx-auto text-center text-white col-md-20 col-sm-12">
+      <h1 style="color:white;">
+        Structured Data for Health
+      </h1>
+      <h2 style="color:white;">
+        ICML 2026 Workshop | July 10/11 | Seoul, South Korea
+      </h2>
+      <h3 style="color:white;">
+        Contact: TODO
+      </h3>
+      <br>
+      <div class="nav">
+        <a href="index.html" class="btn">Home</a>
+        <a href="call_for_papers.html" class="btn active">Call for Papers</a>
+        <a href="schedule.html" class="btn">Schedule</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row" style="padding:20px">
+    <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+  <div class="row" style="font-size:18px">
+    <h2><a name="call-for-papers"></a>Call for Papers</h2>
+    <hr>
+
+    <p>
+    Structured Data for Health (SD4H) workshop at ICML 2026 invites submissions focused on the unique challenges and opportunities in modeling structured data to advance human health. Structured data is ubiquitous in modern healthcare, spanning tabular electronic health records, high-frequency physiological time series, and irregular clinical measurements collected over time. This workshop brings together researchers working across machine learning, clinical informatics, and wearable sensing to address questions at the intersection of structured data modeling and healthcare, with the goal of enabling holistic, interpretable, and clinically impactful methods.
+    </p>
+    <div style="font-size: 1em; padding-top: 1em;">
+      <p>We invite you to submit your work by <strong>January 30, 2026</strong>
+        (Anywhere on Earth).</p>
+      <!-- <p>To recognize an outstanding contribution, we are pleased to offer a <strong>$500 Best Paper
+          Prize</strong> 🏆 sponsored independently by <strong>Google and Apple</strong></p> -->
+    </div>
+
+    <!-- === MODIFICATIONS START HERE === -->
+    <!--         <br>
+  <h4>NEW UPDATE: ML4H-to-TS4H Track</h4>
+  <p>
+    In addition to our 4-page main submission below, we are also offering a ML4H-to-TS4H Cross-submission Track. For those that wish to submit full length, 9-page-long papers, we encourage authors to submit their works to ML4H and choose the TS4H cross-submission option. These papers will have stricter ML4H review standards, but, similar to the <a href="https://icml.cc/public/JournalToConference" target="_blank">Journal-to-Conference Track</a>, your work would be accepted at ML4H and be then granted an additional presentation opportunity at our TS4H workshop (subject to area fit assessment). See this <a href="https://ahli.cc/ml4h/cross-submission/" target="_blank">page</a> for further details.
+  </p> -->
+
+    <!-- === MODIFICATIONS END HERE === -->
+  </div>
+  <style>
+    .topic-category {
+      font-size: 21px;
+      /* Slightly larger than the default h4 */
+      font-weight: normal;
+      /* Not bold */
+      margin-top: 20px;
+    }
+
+    .topic-detail {
+      font-size: 15px;
+      /* Smaller size for the descriptive text */
+      color: #555;
+    }
+  </style>
+
+  <div class="row" style="font-size:18px">
+    <h2><a name="topics"></a>Topics of Interest</h2>
+    <hr>
+    <p>Submissions may explore but are not limited to:</p>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="topic-category">Models & Methods</h4>
+        <ul>
+          <li><b>Novel Architectures:</b> <span class="topic-detail">State-space models, diffusion models,
+              etc.</span></li>
+          <li><b>Foundation Models:</b> <span class="topic-detail">Pre-training, scaling, and alignment.</span>
+          </li>
+          <li><b>Deep Learning:</b> <span class="topic-detail">Supervised, self-supervised, and unsupervised
+              methods.</span></li>
+          <li><b>Probabilistic Modeling:</b> <span class="topic-detail">Uncertainty quantification and Bayesian
+              methods.</span></li>
+          <li><b>Sequential Decision-Making:</b> <span class="topic-detail">Reinforcement learning and optimal
+              control.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="topic-category">Data-Specific Challenges</h4>
+        <ul>
+          <li><b>Multimodal Learning:</b> <span class="topic-detail">Fusing time series with images, text, or
+              genomics, LLMs for time series data.</span></li>
+          <li><b>Irregular & Missing Data:</b> <span class="topic-detail">Handling sparse or irregularly-sampled
+              series.</span></li>
+          <li><b>Complex Signals:</b> <span class="topic-detail">Modeling high-dimensional or multi-resolution
+              data.</span></li>
+          <li><b>Causal Inference:</b> <span class="topic-detail">Inferring cause-and-effect from observational
+              data.</span></li>
+          <li><b>Representation Learning & Adaptation:</b> <span class="topic-detail"> Pre-training, adaptation
+              strategies that
+              transfer across patients, devices, test-time adaptation.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="topic-category">Applications & Trustworthy AI</h4>
+        <ul>
+          <li><b>Clinical Applications:</b> <span class="topic-detail">Forecasting, risk stratification, digital
+              biomarkers.</span></li>
+          <li><b>Trust & Reliability:</b> <span class="topic-detail">Explainability, fairness, robustness, and
+              privacy.</span></li>
+          <li><b>Deployment & Implementation:</b> <span class="topic-detail">Real-world case studies and
+              MLOps, federated evaluation, online learning during deployment.</span></li>
+          <li><b>New Resources:</b> <span class="topic-detail">Public datasets, benchmarks, and software.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="font-size:18px">
+    <h2><a name="instructions"></a>Submission Instructions</h2>
+    <hr>
+    <p>
+      We invite short papers of <strong>up to 4 pages</strong>, excluding references and appendices. All
+      submissions should follow the official ICML'26 paper formatting guidelines (paper checklist is NOT
+      needed) and be fully <strong>anonymized</strong> for a double-blind review process. Submitted work should be
+      original and unpublished, though submissions on preprint servers like arXiv are permitted. Authors will be
+      asked to confirm that their submissions accord with the <a href="https://icml.cc/Conferences/2026/CodeOfConduct#:~:text=The%20open%20exchange%20of%20ideas,inherent%20worth%20of%20every%20person.">ICML
+        Code of Conduct</a>
+    </p>
+    <p>
+      All accepted papers must be presented <strong>in person</strong> at the workshop. This is a non-archival
+      venue and there will be no formal proceedings.
+    </p>
+    <div style="text-align: center;">
+      <a href="https://structureddata4health.github.io"
+        class="btn btn-primary btn-lg">OpenReview Submission</a>
+    </div>
+  </div>
+
+  <div class="row" style="font-size:18px">
+    <h2><a name="dates"></a>Important Dates</h2>
+    <hr>
+    <p><strong>Submission Deadline:</strong> TBD</p>
+    <p><strong>Workshop Date:</strong> July 10/11, 2026 (Co-located with ICML'26 in Seoul, South Korea)
+    </p>
+  </div>
+
+  <div class="row" style="font-size:18px">
+    <h2><a name="dates"></a>Frequently Asked Questions (FAQ)</h2>
+    <hr>
+
+    <dl>
+      <dt><strong>Q1.</strong> What does “non-archival venue” mean?</dt>
+      <dd>A non-archival venue is one where accepted papers are not formally published in proceedings. This means
+        the work will not appear in a permanent, citable archive.</dd>
+      <br>
+      <dt><strong>Q2.</strong> Does this mean accepted papers can be submitted elsewhere (e.g., to a journal or
+        another conference)?</dt>
+      <dd>Yes! Since our workshop is non-archival, you are free to submit your work elsewhere. We do recommend
+        checking the policies of your target journal or conference, as some may have restrictions on prior
+        presentations — even at non-archival events.</dd>
+      <br>
+      <dt><strong>Q3.</strong> Can I submit a paper that has been withdrawn from the main track of a conference?
+      </dt>
+      <dd>Absolutely. You are welcome to submit such work to our workshop.</dd>
+      <br>
+      <dt><strong>Q4.</strong> Can I submit the same work to your workshop and another venue (e.g., other ICML
+        workshop) at the same time?</dt>
+      <dd>Yes, concurrent submissions are allowed. Please ensure that your other target venue’s rules permit this.
+      </dd>
+      <br>
+      <dt><strong>Q5.</strong> Can I present work at the workshop that has already been accepted elsewhere?</dt>
+      <dd>Yes, provided that the other venue’s policies allow for prior or concurrent presentation at a
+        non-archival workshop. Always confirm with the other venue first.</dd>
+      <br>
+    </dl>
+
+  </div>
+
+
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<footer>
+&nbsp;
+</footer>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'] ],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript"
+     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
