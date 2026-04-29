@@ -29,6 +29,18 @@
     .back h2 { font-family: "Lato", sans-serif; font-weight: 500; font-size: 3rem; }
     .nav .btn { font-size: 30px; color: white; }
     .nav a.active { text-decoration: underline; }
+    .dropdown { position: relative; display: inline-block; }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a { color: black; padding: 12px 16px; text-decoration: none; display: block; }
+    .dropdown-content a:hover { background-color: #f1f1f1; }
+    .dropdown:hover .dropdown-content { display: block; }
 
     /* Profile Cards for Speakers & Organizers */
     .profile-card {
@@ -118,13 +130,21 @@
       <div class="p-1 mx-auto text-center text-white col-md-20 col-sm-12">
         <h1>Structured Data for Health</h1>
         <h2>ICML 2026 Workshop | July 10/11 | Seoul, South Korea</h2>
-        <h3>Submission Deadline: 28 April 2026 (AOE)<h3>
+        <h3>Submission Deadline: 2 May 2026 (AOE)<h3>
         <h3>Contact: sd4h.chairs@gmail.com</h3>
         <br>
         <div class="nav">
             <a href="index.html" class="btn active">Home</a>
             <a href="call_for_papers.html" class="btn">Call for Papers</a>
             <a href="schedule.html" class="btn">Schedule</a>
+            <div class="dropdown">
+                <a href="#" class="btn">Prior Years</a>
+                <div class="dropdown-content">
+                    <a href="https://timeseries4health.github.io/neurips2025/index.html">NeurIPS 2025</a>
+                    <a href="https://timeseries4health.github.io/iclr2024/index.html">ICLR 2024</a>
+                    <a href="https://timeseries4health.github.io/neurips2022/index.html">NeurIPS 2022</a>
+                </div>
+            </div>
         </div>
       </div>
     </div>
@@ -154,16 +174,19 @@
                 <p>
                 </p>
 
-                <h2><a name="call-for-papers"></a>📢 Call for Reviewers</h2>
-                <hr>
-                <div style="text-align: left; font-size: 1.5em; padding: 0 1em;">
+                <h2><a name=""></a>📢 Deadline extended to May 2nd AOE</h2>
+                <!-- <hr> -->
+                <!-- <div style="text-align: left; font-size: 1.5em; padding: 0 1em;"> -->
                   <p>
-                    Interested in joining our <strong>reviewer panel</strong>? 
+                    Due to strong community engagement, we have extended our deadline to May 2nd AOE. Please carefully review submission requirements and instructions on the <a href="call_for_papers.html">Call for Papers</a> page.
+                  </p>
+
+                     <hr>
+                  <p> Interested in joining our <strong>reviewer panel</strong>? 
                     Please fill out 
                     <a href="https://forms.gle/BLLoxNsqScPaCjUk7">this form</a>.
                   </p>
-                </div>
-                <h3><strong>NOTE:</strong> Carefully review submission requirements and instructions on the <a href="call_for_papers.html">Call for Papers</a> page.</h3>
+                <hr>
                 <br>
 
                 <h2>About SD4H</h2>

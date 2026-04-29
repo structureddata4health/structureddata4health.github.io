@@ -43,6 +43,30 @@
     .nav a.active {
       text-decoration: underline;
     }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
   </style>
 <div class="jumbotron jumbotron-fluid back" style="padding-bottom: 100px;">
   <div class="row header p-6 m-5">
@@ -54,7 +78,7 @@
         ICML 2026 Workshop | July 10/11 | Seoul, South Korea
       </h2>
       <h3 style="color:white;">
-        Submission Deadline: 28 April 2026 (AOE)
+        Submission Deadline: 2 May 2026 (AOE)
       </h3>
       <h3 style="color:white;">
         Contact: sd4h.chairs@gmail.com
@@ -65,6 +89,14 @@
         <a href="index.html" class="btn">Home</a>
         <a href="call_for_papers.html" class="btn active">Call for Papers</a>
         <a href="schedule.html" class="btn">Schedule</a>
+        <div class="dropdown">
+          <a href="#" class="btn">Prior Years</a>
+          <div class="dropdown-content">
+            <a href="https://timeseries4health.github.io/neurips2025/index.html">NeurIPS 2025</a>
+            <a href="https://timeseries4health.github.io/iclr2024/index.html">ICLR 2024</a>
+            <a href="https://timeseries4health.github.io/neurips2022/index.html">NeurIPS 2022</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -92,7 +124,7 @@
     Structured Data for Health (SD4H) workshop at ICML 2026 invites submissions focused on the unique challenges and opportunities in modeling structured data to advance human health. Structured data is ubiquitous in modern healthcare, spanning tabular electronic health records, high-frequency physiological time series, and irregular clinical measurements collected over time. This workshop brings together researchers working across machine learning, clinical informatics, and wearable sensing to address questions at the intersection of structured data modeling and healthcare, with the goal of enabling holistic, interpretable, and clinically impactful methods.
     </p>
     <div style="font-size: 1em; padding-top: 1em;">
-      <p>We invite you to submit your work by <strong>April 28, 2026</strong>
+      <p>We invite you to submit your work by <strong>May 2, 2026</strong>
         (Anywhere on Earth).</p>
       <!-- <p>To recognize an outstanding contribution, we are pleased to offer a <strong>$500 Best Paper
           Prize</strong> 🏆 sponsored independently by <strong>Google and Apple</strong></p> -->
@@ -206,7 +238,7 @@
   <div class="row" style="font-size:18px">
     <h2><a name="dates"></a>Important Dates</h2>
     <hr>
-    <p><strong>Submission Deadline: </strong>28 April 2026</p>
+    <p><strong>Submission Deadline: </strong>2 May 2026</p>
     <p><strong>Workshop Date: </strong>July 10/11, 2026 (Co-located with ICML'26 in Seoul, South Korea)
     </p>
   </div>

@@ -43,6 +43,30 @@
   .nav a.active {
    text-decoration: underline;
   }
+  .dropdown {
+   position: relative;
+   display: inline-block;
+  }
+  .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+  }
+  .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+  }
+  .dropdown-content a:hover {
+   background-color: #f1f1f1;
+  }
+  .dropdown:hover .dropdown-content {
+   display: block;
+  }
   /* REMOVED BOOTSTRAP COLOR CLASSES TO AVOID CONFLICTS, BUT KEEPING THIS BLOCK IN CASE BOOTSTRAP IS INCLUDED */
   /* .table > tbody > tr.info > td,
   .table > tbody > tr.warning > td,
@@ -71,43 +95,14 @@
       <a href="index.html" class="btn">Home</a>
       <a href="call_for_papers.html" class="btn">Call for Papers</a>
       <a href="schedule.html" class="btn active">Schedule</a>
-      <style>
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-     
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-     
-      .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-      }
-     
-      .dropdown-content a:hover {
-        background-color: #f1f1f1;
-      }
-     
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-      </style>
-      <!-- <div class="dropdown" style="display:inline-block;">
+      <div class="dropdown" style="display:inline-block;">
         <a href="#" class="btn">Prior Years</a>
         <div class="dropdown-content">
-          <a href="iclr2024/index.html">ICLR 2024</a>
-          <a href="neurips2022/index.html">NeurIPS 2022</a>
+          <a href="https://timeseries4health.github.io/neurips2025/index.html">NeurIPS 2025</a>
+          <a href="https://timeseries4health.github.io/iclr2024/index.html">ICLR 2024</a>
+          <a href="https://timeseries4health.github.io/neurips2022/index.html">NeurIPS 2022</a>
         </div>
-      </div> -->
+      </div>
       <!-- <div class="dropdown" style="display:inline-block;">
         <a href="#" class="btn">Coming Soon</a>
         <div class="dropdown-content">
