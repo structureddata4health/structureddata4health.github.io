@@ -73,11 +73,18 @@
       font-size: 14px;
       color: #666;
     }
+    h2.committee-title,
     h3.committee-title {
         width: 100%;
         text-align: center;
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+    .sponsor-tier {
+        text-align: center;
+    }
+    .sponsor-tier .committee-title {
+        margin-top: 0;
     }
     .profile-row {
         display: flex;
@@ -299,12 +306,15 @@
                 </div> -->
             </section>
             <h1><a name="sponsor-title"></a>Sponsors</h1> <hr>
-            <section id="sponsors" class="row">    
-                <h2 class="committee-title">Bronze Level</h2>
-                <div class="col-xs-12">
+            <section id="sponsors" class="row">
+                <div class="col-sm-6 sponsor-tier">
+                    <h2 class="committee-title">Gold Level</h2>
                     <a href="https://www.eightsleep.com/" target="_blank" rel="noopener">
                       <img src="img/Eight_Sleep_logo.png" alt="Eight Sleep Logo" class="sponsor-logo-footer">
                     </a>
+                </div>
+                <div class="col-sm-6 sponsor-tier">
+                    <h2 class="committee-title">Bronze Level</h2>
                     <a href="https://www.kakao.vc/en" target="_blank" rel="noopener">
                       <img src="img/kakao_logo.jpg" alt="Kakao Logo" class="sponsor-logo-footer">
                     </a>
